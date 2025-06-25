@@ -9,65 +9,62 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+    year: "Jan 2025 - Present",
+    role: " Web Developer",
+    company: "Meril Life Science",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    technologies: ["Javascript", "React.js", "Tailwind css", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "July 2024 -Oct 2024",
+    role: "Frontend Developer Intern",
+    company: "Mamo TechnoLabs",
+    description: `Designed and developed user interfaces for web applications using  React and Tailwind css. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["HTML", "CSS", "React", "mySQL"],
   },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   year: "2021 - 2022",
+  //   role: "Full Stack Developer",
+  //   company: "Facebook",
+  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+  // },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Buzzlynow",
     image: project1,
+    link: "https://buzzlynow.com",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "BuzzlyNow is a fully functional news platform delivering crisp, real-time news across multiple categories. It features a clean and responsive UI, Multi-Language support, and a dedicated admin panel for publishing content. Built to provide users with a fast, clutter-free reading experience on both mobile and desktop devices.",
+    technologies: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Shree Trading",
     image: project2,
+    link: "https://website-q882-git-master-khan-anishs-projects.vercel.app/",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a comprehensive, responsive website for Shree Trading, a business-focused platform to showcase their products online. Built with React and Tailwind CSS, the site features 89 dynamically rendered product pages, each tailored to display detailed product specifications, images, and information.",
+    technologies: ["React", "Tailwind CSS", "Node.js"],
   },
   {
-    title: "Portfolio Website",
+    title: "Forever",
     image: project3,
+    link: "https://forever-gamma.vercel.app/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed the front-end of an e-commerce website using React and Tailwind CSS. Implemented responsive design, dynamic product listing, and category-based filtering to enhance user experience and streamline product discovery.",
+    technologies: ["React", "Tailwind CSS"],
   },
 ];
+
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",

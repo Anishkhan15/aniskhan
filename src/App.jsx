@@ -15,9 +15,10 @@ function App() {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
-        <About />
-        <Tech/>
+        
         <Experience/>
+        {/* <About /> */}
+        {/* <Tech/> */}
         <Projects/>
         <Contact/>
       </div>

@@ -15,8 +15,6 @@ const Navbar = () => {
          
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-          <a href="https://www.instagram.com/khan.anish_15?igsh=NHFwaWEwdGZkdzNl" target="_blank" rel="noopener noreferrer">
-          <FaInstagram  className="cursor-pointer hover:text-red-400"/></a>
           <a  href="https://www.linkedin.com/in/anish-khan-054488273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
           <FaLinkedinIn   className="cursor-pointer hover:text-blue-500"/>
           </a>
